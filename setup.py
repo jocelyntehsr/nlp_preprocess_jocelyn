@@ -5,7 +5,7 @@ with open('README.md','r') as file:
 
 setuptools.setup(
     name = 'nlp_preprocess_jocelyn',
-    version = '0.0.1',
+    version = '0.0.2',
     author = 'Jocelyn Teh',
     description= 'This is Preprocessing Package NLP',
     long_description= long_description,

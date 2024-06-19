@@ -1,6 +1,6 @@
 from nlp_preprocess_jocelyn import utils
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 # The methods below are accessible to the users
 
@@ -62,10 +62,10 @@ def make_base(x):
     return utils._make_base(x)
 
 def remove_common_words(x, n=20):
-    return utils._remove_common_words(x, n=20)
+    return utils._remove_common_words(x, n)
 
 def remove_rare_words(x, n=20):
-    return utils._remove_rare_words(x, n=20)
+    return utils._remove_rare_words(x, n)
 
 def spelling_correction(x):
     return utils._spelling_correction(x)
